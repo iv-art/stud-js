@@ -136,11 +136,23 @@ b9.onclick = f9;
 
 f10 = () => {
     
-    let i10out;
-    i10out = document.querySelector('.i-10').value;
+    let i10Out;
+    i10Out = document.querySelector('.i-10').value;
     
     document.querySelector('.out-10').innerHTML = i10Out;
 };
 
 const b10 = document.querySelector('.b-10');
 b10.onclick = f10;
+
+
+f11 = () => {
+    
+    let i11Out;
+    i11Out = document.querySelector('.i-11').value;
+    
+    document.querySelector('.out-11').innerHTML = i11Out;
+};
+
+const b11 = document.querySelector('.i-11');
+b11.onchange = f11;
