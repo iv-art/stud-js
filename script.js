@@ -156,3 +156,13 @@ f11 = () => {
 
 const b11 = document.querySelector('.i-11');
 b11.onchange = f11;
+
+f12 = () => {
+    let i12Out;
+    i12Out = document.querySelector('.i-12').value;
+    let i12OutType;
+    i12OutType = typeof(i12Out);
+    document.querySelector('.out-12').innerHTML = i12OutType;
+}
+const b12 = document.querySelector('.i-12');
+b12.onchange = f12;
